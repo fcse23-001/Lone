@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Warner Bros. - Movies</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  <style>
+  .movies-hero .carousel-inner {
+      display: flex; 
+      flex-direction: row; 
+    }
+
+    .movies-hero .carousel-item {
+      flex: 0 0 100%;  
+    }
+
+    .movies-hero img {
+      max-width: flex;
+      height: 150px;     
+    }
+
+    .movie-info {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container"> 
+    <div class="header"> 
+      <a class="header-logo" href="#">Warner Bros.</a>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Movies.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="TVShows.html">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="GamesApps.html">Games & Apps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Collections.html">Collections</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <div class="container">
+      <section class="movies-hero">
+        <h1>Featured Movies</h1>
+        <div id="movie-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/dune-posters-1276200-1280x0.jpeg" class="d-block w-100" alt="Dune">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/img_7184-1.jpg" class="d-block w-100" alt="Barbie">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#movie-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#movie-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="movies-list">
+        <h2>Latest Releases</h2> 
+        <div class="row">  
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/godzilla-x-kong-poster.jpeg" class="card-img-top" alt="Godzilla X King: The New Empire">
+              <div class="card-body">
+                <h5 class="card-title">Godzilla X King: The New Empire</h5>
+                <p class="card-text">The new installment in the Monsterverse puts the mighty Kong and the fearsome Godzilla against a colossal deadly threat...</p>
+                <p class="card-meta">Genre: Action, Sci-Fi | Release Date: 2024</p>
+                <a href="Images/videoplayback.mp4" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/fdab42_8cb4ebd907e144b09c7ddb603e8a93f6~mv2.jpg" class="card-img-top" alt="Furiosa: A Mad Max Saga">
+              <div class="card-body">
+                <h5 class="card-title">Furiosa: A Mad Max Saga</h5>
+                <p class="card-text">Furiosa was born in the "Green Place", one of the few locations in the post-apocalyptic wasteland...</p>
+                <p class="card-meta">Genre: Action, Adventure | Release Date: 2024</p>
+                <a href="Images/videoplayback(1).mp4" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/evil_dead_rise_keyart.jpg" class="card-img-top" alt="Evil Dead Rise">
+              <div class="card-body">
+                <h5 class="card-title">Evil Dead Rise</h5>
+                <p class="card-text">A twisted tale of two estranged sisters whose reunion is cut short by the rise of flesh-possessing demons...</p>
+                <p class="card-meta">Genre: Horror | Release Date: 2023</p>
+                <a href="#" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+        </div> <div class="row"> 
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/Joker-Official-Images-Final-Poster-01.jpg" class="card-img-top" alt="Movie Title">
+              <div class="card-body">
+                <h5 class="card-title">Joker</h5>
+                <p class="card-text">A mentally ill, impoverished party clown and stand-up comedian disregarded by society...</p>
+                <p class="card-meta">Genre: Thriller, Drama | Release Date: 2019</p>
+                <a href="#" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/HD-wallpaper-justice-league-sc-action-dc-hbo-hollywood-justice-league-movie-poster-warner-warner-bros-thumbnail.jpg" class="card-img-top" alt="Movie Title">
+              <div class="card-body">
+                <h5 class="card-title">Justice League: The Snyder Cut</h5>
+                <p class="card-text">Determined to ensure that Superman's ultimate sacrifice wasn't in vain, Bruce Wayne recruits a team of metahumans...</p>
+                <p class="card-meta">Genre: Action, Adventure | Release Date: 2021</p>
+                <a href="#" class="btn btn-primary">Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>   
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+		  <p>
+<a href="https://www.facebook.com/WarnerBrosPictures" class="active">Facebook</a>
+<a href="https://x.com/warnerbros/" class="active">Twitter</a>
+		  
+<a href="https://www.instagram.com/warnerbrosentertainment?igsh=N3V2bmpkMmhsNWV6" class="active">Instagram</a>
+
+</p>
+      <p>&copy; 2024 Warner Bros. Entertainment Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
